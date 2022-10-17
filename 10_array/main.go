@@ -29,4 +29,19 @@ func main() {
 	books[2] = "Science world"
 
 	fmt.Println(books)
+
+	// length of an Array 
+	fmt.Println("The length of array is", len(arrayOfInteger))
+
+	//Multidimensional array in Golang
+	// create a 2 dimensional array
+	arrayIntegers := [2][2]int{{1, 2}, {3, 4}}
+
+	// access the values of 2d array
+	for i := 0; i < 2; i++ {
+		for j := 0; j < 2; j++ {
+		  fmt.Println(arrayIntegers[i][j])
+		}
+	  }
+
 }
